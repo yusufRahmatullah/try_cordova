@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-inline' 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval' https:; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;"-->
+        <meta charset="UTF-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/book2use.css">
+        <title>Hello World</title>
+    </head>
+    <body onload="setBaseUrl();" class="fullScreen">
+        <form name="loginForm" id="loginForm" class="loginForm" method="post" action="" onsubmit="return false;">
+            <input type="text" name="name" id="name" class="name" placeholder="Name" required="required" />
+            <input type="submit" class="button" value="Login" onclick="validateForm();" />
+        </form>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script type="text/javascript" src="js/book2use.js"></script>
+    </body>
+</html>
